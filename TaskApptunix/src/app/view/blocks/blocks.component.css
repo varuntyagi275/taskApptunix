@@ -1,0 +1,31 @@
+.row{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
+.column{
+    width: 330px    ;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 15px red;
+    min-height: 50px!important;
+    position: relative;
+    padding: 40px 20px;
+   }
+
+.cardName{
+    text-align:center;
+    margin-top: 20px;
+}
+
+button{
+    background: #0b7bf5;
+    border:none;
+    margin-top: 20px;
+    padding: 10px 35px;
+    margin: 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+}

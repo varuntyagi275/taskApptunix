@@ -1,0 +1,2 @@
+1-Install node module by typing *npm install* in CMD
+2- Type *ng serve/ng serve -o/npm start* to serve the project
