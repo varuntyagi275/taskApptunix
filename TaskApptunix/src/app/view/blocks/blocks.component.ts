@@ -7,36 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlocksComponent implements OnInit {
 
-  items=[{
-    image:"",
-    number:1
-  },
-  {
-    image:"",
-    number:2
-  },
-  {
-    image:"",
-    number:3
-  },
-  {
-    image:"",
-    number:4
-  },
-  {
-    image:"",
-    number:5
-  },{
-    image:"",
-    number:6
-  }
-  ]
+  
 displayList=[]
 
-  flag=false
   constructor() { }
-  counter=0
-  reverse:number
   ngOnInit(): void {
   }
 images="assets/avataaars.png"
